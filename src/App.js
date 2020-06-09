@@ -17,7 +17,7 @@ function App() {
           }
         </p>
 
-        Test 2        <p>
+        Test 3        <p>
           {
             `DateFormat: ${dateFormat("2019-06-13T00:00:00.000-05:00")}`
           }
