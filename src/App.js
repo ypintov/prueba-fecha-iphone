@@ -16,9 +16,18 @@ function App() {
             `Date Value: ${new Date("2019-06-13T00:00:00.000")}`
           }
         </p>
+
+        Test 2        <p>
+          {
+            `DateFormat: ${dateFormat("2019-06-13 00:00:00.000GMT-0500")}`
+          }
+        </p>
         <p>
-          Test 1
-      </p>
+          {
+            `Date Value: ${new Date("2019-06-13 00:00:00.000GMT-0500")}`
+          }
+        </p>
+
       </header>
     </div>
   );
