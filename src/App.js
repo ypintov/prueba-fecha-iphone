@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { dateFormat } from './util/formatUtils';
 
@@ -9,7 +8,12 @@ function App() {
       <header className="App-header">
         <p>
           {
-            dateFormat("2019-06-13T00:00:00.000")
+            `DateFormat: ${dateFormat("2019-06-13T00:00:00.000")}`
+          }
+        </p>
+        <p>
+          {
+            `Date Value: ${new Date("2019-06-13T00:00:00.000")}`
           }
         </p>
         <p>
